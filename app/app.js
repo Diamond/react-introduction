@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import HelloWorld from './hello_world';
+
 const App = () => {
   return (
-    <h1>
-      Hello World!
-    </h1>
+    <HelloWorld name="Brandon"/>
   );
 }
 
